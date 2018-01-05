@@ -1,0 +1,66 @@
+#table2{
+    position: absolute;
+    top: 35%;
+}
+
+#grade{
+    position: absolute;
+    top: 25%;
+    margin-left: 15%;
+}
+#button {
+    background-color: transparent;
+    text-align: center ;
+    position: absolute;
+    top: 23%;
+    margin-left: 5%;
+}
+#button:hover{
+    background-color: darkolivegreen;
+}
+
+#myButton {
+    background-color: transparent;
+    color: ivory;
+    height: 35px;
+    width: 100px;
+    border-radius: 100px;
+    position: absolute;
+    top: 25%;
+    margin-left: 5%;
+}
+#myButton:hover{
+    background-color: darkolivegreen;
+}
+
+#otherButton{
+    background-color: transparent;
+    color: ivory;
+
+    border-radius: 100px;
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    top: 48%;
+    margin-left: 5%;
+}
+
+#otherButton:hover{
+    background-color: darkolivegreen;
+}
+
+#necessaryFinal{
+    position: absolute;
+    top: 55%;
+    margin-left: 35%;
+}
+
+#HomeworkGrade{
+
+}
+
+#message{
+    position: absolute;
+    top: 58%;
+    margin-left: 35%;
+}

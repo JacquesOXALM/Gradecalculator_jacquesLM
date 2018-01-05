@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="GradeCalc.css">
+    <script src="GradeCalc.js"></script>
+    <style>
+        body{
+            background-color: darkturquoise;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>Phool</title>
+
+</head>
+<body>
+
+<table id= "table" style="width:100%" border="1">
+    <tr>
+        <th>Category</th>
+        <th>Grade</th>
+        <th>Percent Weight</th>
+
+    </tr>
+    <tr id="HomeworkRow">
+        <td>Homework</td>
+        <td> <input type="text" id="HomeworkGrade" value="88,76,90" size="25" > </td>
+        <td> <input type="text" id="HomeworkWeight" value="20" size="5" maxlength="2">% </td>
+    </tr>
+    <tr id="QuizRow">
+        <td>Quizzes</td>
+        <td> <input type="text" id="QuizGrade" value="70,81,73" size="25" > </td>
+        <td> <input type="text" id="QuizWeight" value="20" size="5" maxlength="2">% </td>
+    </tr>
+    <tr id="TestRow">
+        <td>Tests</td>
+        <td> <input type="text" id="TestGrade" value="98,89,79" size="25"> </td>
+        <td> <input type="text" id="TestWeight" value="25" size="5" maxlength="2">% </td>
+    </tr>
+    <tr id="MidtermRow">
+        <td>Midterm</td>
+        <td> <input type="text" id="MidtermGrade" value="96" size="25" maxlength="3">% </td>
+        <td> <input type="text" id="MidtermWeight" value="35" size="5" maxlength="2">% </td>
+    </tr>
+
+</table>
+
+<table id="table2" style="width:100%" border="1">
+    <tr>
+        <th>Grade You Want</th>
+        <th>Weight Of Your Class's Final</th>
+    </tr>
+    <tr>
+        <td> <input type="number" id="desiredGrade" value="89.55" size="25">% </td>
+        <td> <input type="number" id="FinalWeight" value="20" size="25" maxlength="2">% </td>
+    </tr>
+</table>
+
+<div id="button">
+    <button id="myButton" onclick="calculateCurrentGrade()">Calculate My Current Grade</button>
+</div>
+<button id="otherButton" onclick="calculateNecessaryGrade()" >Find Out What I Need To Score On the Final</button>
+<div id="grade"></div>
+<div id="necessaryFinal"></div>
+<div id="message"></div>
+<div id="HWgrade"></div>
+
+</body>
+</html>
